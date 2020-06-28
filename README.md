@@ -3,7 +3,7 @@
 
 **Metadata**
 
-![Build and Deploy](https://github.com/MichaelCurrin/hexo-quickstart/workflows/Build%20and%20Deploy/badge.svg)
+[![Build and Deploy](https://github.com/MichaelCurrin/hexo-quickstart/workflows/Build%20and%20Deploy/badge.svg)](https://github.com/MichaelCurrin/hexo-quickstart/actions)
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/hexo-quickstart)](https://github.com/MichaelCurrin/hexo-quickstart/tags/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](#license)
 
