@@ -18,7 +18,11 @@ jobs:
 
     - name: Build 🏗️
       run: |
-        ls -R *
+        yarn clean
         yarn build
-        ls -R *
-      
+
+    - name: Deploy to GH Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: public      
