@@ -48,7 +48,7 @@
       </h1>
       
         <h2 id="subtitle-wrap">
-          <a href="/hexo-quickstart/" id="subtitle">Template and tutorial</a>
+          <a href="/hexo-quickstart/" id="subtitle">Tutorial, template and live demo</a>
         </h2>
       
     </div>
@@ -57,6 +57,10 @@
         <a id="main-nav-toggle" class="nav-icon"></a>
         
           <a class="main-nav-link" href="/hexo-quickstart/">Home</a>
+        
+          <a class="main-nav-link" href="/hexo-quickstart/about">About</a>
+        
+          <a class="main-nav-link" href="https://github.com/MichaelCurrin/hexo-quickstart" target="_blank" rel="noopener">Github</a>
         
           <a class="main-nav-link" href="/hexo-quickstart/archives">Archives</a>
         
@@ -76,10 +80,10 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+    <article id="post-ci-deploy" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
-    <a href="/hexo-quickstart/2020/06/28/hello-world/" class="article-date">
-  <time class="dt-published" datetime="2020-06-28T20:02:59.286Z" itemprop="datePublished">2020-06-28</time>
+    <a href="/hexo-quickstart/2020/06/28/ci-deploy/" class="article-date">
+  <time class="dt-published" datetime="2020-06-28T22:56:49.000Z" itemprop="datePublished">2020-06-28</time>
 </a>
     
   </div>
@@ -90,7 +94,48 @@
         
   
     <h1 itemprop="name">
-      <a class="p-name article-title" href="/hexo-quickstart/2020/06/28/hello-world/">Hello World - first blog post</a>
+      <a class="p-name article-title" href="/hexo-quickstart/2020/06/28/ci-deploy/">CI Deploy</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>This post is to celebrate adding Github Actions CI flow to the quickstart site.</p>
+<p>The problem I have before was at the build step. Eventually I came back to it and realized I need to do a <strong>recursive</strong> clone so that the theme is available.</p>
+<p>This was accomplished by adding <code>submodules: true</code> to the workflow file.</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://michaelcurrin.github.io/hexo-quickstart/2020/06/28/ci-deploy/" data-id="ckbzl1f1i0000eaj12nx04u6l" data-title="CI Deploy" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/hexo-quickstart/2020/06/28/hello-world/" class="article-date">
+  <time class="dt-published" datetime="2020-06-28T21:25:29.514Z" itemprop="datePublished">2020-06-28</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/hexo-quickstart/2020/06/28/hello-world/">Hello World Post</a>
     </h1>
   
 
@@ -99,14 +144,20 @@
     <div class="e-content article-entry" itemprop="articleBody">
       
         <h2 id="This-is-a-heading"><a href="#This-is-a-heading" class="headerlink" title="This is a heading"></a>This is a heading</h2><p>Here is the content.</p>
+<p>See the repo at:</p>
+<ul>
+<li><a href="https://github.com/MichaelCurrin/hexo-quickstart" target="_blank" rel="noopener">MichaelCurrin/hexo-quickstart</a></li>
+</ul>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://michaelcurrin.github.io/hexo-quickstart/2020/06/28/hello-world/" data-id="ckbzi39aw0000jchp9sevfs07" data-title="Hello World - first blog post" class="article-share-link">Share</a>
+      <a data-url="https://michaelcurrin.github.io/hexo-quickstart/2020/06/28/hello-world/" data-id="ckbzl1f200002eaj105961js3" data-title="Hello World Post" class="article-share-link">Share</a>
       
       
       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/hexo-quickstart/tags/hello/" rel="tag">hello</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/hexo-quickstart/tags/world/" rel="tag">world</a></li></ul>
+
     </footer>
   </div>
   
@@ -125,9 +176,23 @@
 
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/hexo-quickstart/tags/hello/" rel="tag">hello</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hexo-quickstart/tags/world/" rel="tag">world</a></li></ul>
+    </div>
+  </div>
+
 
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/hexo-quickstart/tags/hello/" style="font-size: 10px;">hello</a> <a href="/hexo-quickstart/tags/world/" style="font-size: 10px;">world</a>
+    </div>
+  </div>
+
   
     
   <div class="widget-wrap">
@@ -146,7 +211,11 @@
       <ul>
         
           <li>
-            <a href="/hexo-quickstart/2020/06/28/hello-world/">Hello World - first blog post</a>
+            <a href="/hexo-quickstart/2020/06/28/ci-deploy/">CI Deploy</a>
+          </li>
+        
+          <li>
+            <a href="/hexo-quickstart/2020/06/28/hello-world/">Hello World Post</a>
           </li>
         
       </ul>
@@ -171,6 +240,10 @@
     <nav id="mobile-nav">
   
     <a href="/hexo-quickstart/" class="mobile-nav-link">Home</a>
+  
+    <a href="/hexo-quickstart/about" class="mobile-nav-link">About</a>
+  
+    <a href="https://github.com/MichaelCurrin/hexo-quickstart" target="_blank" rel="noopener" class="mobile-nav-link">Github</a>
   
     <a href="/hexo-quickstart/archives" class="mobile-nav-link">Archives</a>
   

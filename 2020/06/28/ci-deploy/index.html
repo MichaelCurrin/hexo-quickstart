@@ -4,15 +4,17 @@
   <meta charset="utf-8">
   
   
-  <title>Archives | Hexo Quickstart</title>
+  <title>CI Deploy | Hexo Quickstart</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="The easy way to start create a new Hexo blog">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Hexo Quickstart">
-<meta property="og:url" content="https://michaelcurrin.github.io/hexo-quickstart/archives/index.html">
+  <meta name="description" content="This post is to celebrate adding Github Actions CI flow to the quickstart site. The problem I have before was at the build step. Eventually I came back to it and realized I need to do a recursive clon">
+<meta property="og:type" content="article">
+<meta property="og:title" content="CI Deploy">
+<meta property="og:url" content="https://michaelcurrin.github.io/hexo-quickstart/2020/06/28/ci-deploy/index.html">
 <meta property="og:site_name" content="Hexo Quickstart">
-<meta property="og:description" content="The easy way to start create a new Hexo blog">
+<meta property="og:description" content="This post is to celebrate adding Github Actions CI flow to the quickstart site. The problem I have before was at the build step. Eventually I came back to it and realized I need to do a recursive clon">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-06-28T22:56:49.000Z">
+<meta property="article:modified_time" content="2020-06-28T21:25:29.514Z">
 <meta property="article:author" content="Michael Currin">
 <meta name="twitter:card" content="summary">
   
@@ -78,58 +80,55 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/hexo-quickstart/archives/2020" class="archive-year">2020</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/hexo-quickstart/2020/06/28/ci-deploy/" class="archive-article-date">
-  <time class="dt-published" datetime="2020-06-28T22:56:49.000Z" itemprop="datePublished">Jun 28</time>
+        <section id="main"><article id="post-ci-deploy" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/hexo-quickstart/2020/06/28/ci-deploy/" class="article-date">
+  <time class="dt-published" datetime="2020-06-28T22:56:49.000Z" itemprop="datePublished">2020-06-28</time>
 </a>
-      
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/hexo-quickstart/2020/06/28/ci-deploy/">CI Deploy</a>
+    <h1 class="p-name article-title" itemprop="headline name">
+      CI Deploy
     </h1>
   
 
-    </header>
-  </div>
-</article>
-  
+      </header>
     
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/hexo-quickstart/2020/06/28/hello-world/" class="archive-article-date">
-  <time class="dt-published" datetime="2020-06-28T21:25:29.514Z" itemprop="datePublished">Jun 28</time>
-</a>
+    <div class="e-content article-entry" itemprop="articleBody">
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/hexo-quickstart/2020/06/28/hello-world/">Hello World Post</a>
-    </h1>
-  
+        <p>This post is to celebrate adding Github Actions CI flow to the quickstart site.</p>
+<p>The problem I have before was at the build step. Eventually I came back to it and realized I need to do a <strong>recursive</strong> clone so that the theme is available.</p>
+<p>This was accomplished by adding <code>submodules: true</code> to the workflow file.</p>
 
-    </header>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://michaelcurrin.github.io/hexo-quickstart/2020/06/28/ci-deploy/" data-id="ckbzl1f1i0000eaj12nx04u6l" data-title="CI Deploy" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
   </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/hexo-quickstart/2020/06/28/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Hello World Post</div>
+    </a>
+  
+</nav>
+
+  
 </article>
-  
-  
-    </div></section>
-  
 
 
 </section>
