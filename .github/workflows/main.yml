@@ -1,0 +1,24 @@
+name: Build
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout 🛎️
+      uses: actions/checkout@master
+      with:
+        persist-credentials: false
+
+    - name: Install 🔧
+      run: yarn install
+
+    - name: Build 🏗️
+      run: |
+        ls -R *
+        yarn build
+        ls -R *
+      
