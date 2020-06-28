@@ -5,6 +5,7 @@
 
 - Basic intro/tutorial
 - Template project
+- Live demo
 
 
 ## Requirements

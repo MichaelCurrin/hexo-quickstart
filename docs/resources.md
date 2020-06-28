@@ -24,12 +24,12 @@
 
 ## Deploy
 
-- [Deploy command](https://hexo.io/docs/commands#deploy)
+- [Deploy command](https://hexo.io/docs/commands#deploy) for running a command locally to commit to a remote environment.
     ```sh
     $ hexo deploy
 
     $ hexo deploy --generate
     ```
-- [Github Pages](https://hexo.io/docs/github-pages) deploy
+- [Github Pages](https://hexo.io/docs/github-pages) deploy through Circle CI
 - [One-command deployment](https://hexo.io/docs/one-command-deployment.html)
     - This covers Zeit, Netlify, Heroku and more.
