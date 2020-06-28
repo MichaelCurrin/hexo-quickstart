@@ -1,7 +1,3 @@
-# Hexo Configuration
-## Docs: https://hexo.io/docs/configuration.html
-## Source: https://github.com/hexojs/hexo/
-
 # Site
 title: Hexo Quickstart
 subtitle: "Template, tutorial and live demo"
@@ -14,7 +10,7 @@ timezone: ""
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://MichaelCurrin.github.io/hexo-quickstart
-root: /
+root: /hexo-quickstart
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -91,11 +87,8 @@ exclude: []
 ignore: []
 
 # Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
 theme: landscape
 
 # Deployment
-## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: ""
