@@ -1,5 +1,5 @@
 # Installation
-
+> Install the project locally
 
 ## Install system dependencies
 
@@ -33,7 +33,9 @@ $ yarn install
 
 ## Install Hexo globally
 
-This is not needed as the quickstart has hexo in the package file and a new project can be created with `npx`. But if you do want to install it globally, do this:
+This is not needed as the quickstart has Hexo in the package file and a new project can be created using `npx`.
+
+But, if you want to install Hexo globally, do this:
 
 ```sh
 $ npm install hexo-cli -g

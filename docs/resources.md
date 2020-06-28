@@ -15,9 +15,14 @@
 - [Commands](https://hexo.io/docs/commands)
 - [Generating](https://hexo.io/docs/generating)
 - [Writing](https://hexo.io/docs/writing.html)
-    ```sh
-    $ hexo new 'My new post'
-    ```
+    - Post layout
+        ```sh
+        $ hexo new 'my new post'
+        ```
+    - Page layout
+        ```sh
+        $ hexo new page 'about'
+        ```
 - [Plugins](http://hexo.io/plugins/)
 - [Themes](http://hexo.io/themes/)
 
