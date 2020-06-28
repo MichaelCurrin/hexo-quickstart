@@ -18,7 +18,6 @@ jobs:
 
     - name: Build 🏗️
       run: |
-        rm public
         yarn clean
         yarn build
         ls
