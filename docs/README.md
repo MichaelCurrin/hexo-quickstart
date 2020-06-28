@@ -5,7 +5,6 @@
 
 - Basic intro/tutorial
 - Template project
-- Live demo on GH Pages
 
 
 ## Requirements

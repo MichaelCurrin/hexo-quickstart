@@ -4,7 +4,6 @@
 
 **Metadata**
 
-[![Build and Deploy](https://github.com/MichaelCurrin/hexo-quickstart/workflows/Build%20and%20Deploy/badge.svg)](https://github.com/MichaelCurrin/hexo-quickstart/actions)
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/hexo-quickstart)](https://github.com/MichaelCurrin/hexo-quickstart/tags/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](#license)
 
@@ -12,15 +11,14 @@
 
 [![Use this template](https://img.shields.io/badge/Use_this_template-green?style=for-the-badge)](https://github.com/MichaelCurrin/hexo-quickstart/generate)
 
-[![Site: GH Pages](https://img.shields.io/badge/Live_demo-GH_Pages-green?style=for-the-badge)](https://MichaelCurrin.github.io/hexo-quickstart/)
-
-
 [Hexo](https://hexo.io) is a static-site generator which can be installed as an NPM package. This project helps you get started with Hexo.
 
 
 ## Documentation
 
 See the [docs](/docs/) directory.
+
+Note - this project does not deploy with GH Pages. I tried to setup a flow that worked on other NPM/Yarn projects but I kept on getting empty files.
 
 
 ## License
