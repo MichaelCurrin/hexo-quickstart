@@ -6,23 +6,17 @@ on:
       - master
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout 🛎️
-      uses: actions/checkout@master
-      with:
-        persist-credentials: false
+      - name: Checkout
+        uses: actions/checkout@master
 
-    - name: Install 🔧
-      run: yarn install
-
-    - name: Build 🏗️
-      run: yarn build
-
-    - name: Deploy 🚀
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./public 
+      - name: Build and deploy
+        uses: JamesIves/github-pages-deploy-action@master
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: build
+          BUILD_SCRIPT: yarn install && yarn build
