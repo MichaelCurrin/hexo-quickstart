@@ -4,8 +4,7 @@
     "server": "hexo server",
     "clean": "hexo clean",
     "build": "hexo generate",
-    "deploy": "hexo deploy",
-    "deploy-full": "hexo clean && hexo generate && hexo deploy"
+    "deploy": "hexo deploy"
   },
   "hexo": {
     "version": "4.2.1"
