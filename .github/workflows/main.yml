@@ -18,8 +18,11 @@ jobs:
 
     - name: Build 🏗️
       run: |
+        rm public
         yarn clean
         yarn build
+        ls
+        wc -l public/*
 
     - name: Deploy to GH Pages
       uses: peaceiris/actions-gh-pages@v3
