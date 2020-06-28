@@ -1,6 +1,7 @@
 # Hexo Quickstart
 > The easy way to start create a new Hexo blog
 
+
 **Metadata**
 
 [![Build and Deploy](https://github.com/MichaelCurrin/hexo-quickstart/workflows/Build%20and%20Deploy/badge.svg)](https://github.com/MichaelCurrin/hexo-quickstart/actions)
