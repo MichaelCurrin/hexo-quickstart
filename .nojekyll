@@ -1,2 +1,0 @@
-# Disable Jekyll explicitly to avoid this error in GH Pages settings:
-#   Your site is having problems building: The tag fancybox on line 85 in themes/landscape/README.md is not a recognized Liquid tag.
