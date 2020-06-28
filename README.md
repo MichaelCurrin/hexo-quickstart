@@ -14,7 +14,7 @@
 [![Site: GH Pages](https://img.shields.io/badge/Live_demo-GH_Pages-green?style=for-the-badge)](https://MichaelCurrin.github.io/hexo-quickstart/)
 
 
-Hexo is a static-site generator which can be installed as an NPM package. This project helps you get started with Hexo.
+[Hexo](https://hexo.io) is a static-site generator which can be installed as an NPM package. This project helps you get started with Hexo.
 
 
 ## Documentation
