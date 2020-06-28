@@ -92,3 +92,11 @@ theme: landscape
 # Deployment
 deploy:
   type: ""
+
+### Theme overrides
+
+# Header
+menu:
+  Home: /
+  About: /about
+  Github: https://github.com/MichaelCurrin/hexo-quickstart
