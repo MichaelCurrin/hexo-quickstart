@@ -1,7 +1,7 @@
 ---
-title: Hello World
+title: Hello World - first blog post
 ---
 
-## Heading
+## This is a heading
 
-This is a blog post's content.
+Here is the content.
