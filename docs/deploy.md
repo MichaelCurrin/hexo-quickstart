@@ -1,6 +1,9 @@
-## Deploy
+# Deploy
 
-Deploy only
+Setup a deploy config file before running these commands - see [Resources](resources.md#deploy).
+
+
+Deploy the built `public/` directory, if it exists.
 
 ```sh
 $ yarn deploy

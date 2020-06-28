@@ -1,7 +1,11 @@
 # Resources
 
+
+## Main
+
 - [hexo.io](https://hexo.io/) homepage
 - [hexojs/hexo](https://github.com/hexojs/hexo/) repo
+
 
 ## Docs
 
@@ -17,6 +21,7 @@
 - [Plugins](http://hexo.io/plugins/)
 - [Themes](http://hexo.io/themes/)
 
+
 ## Deploy
 
 - [Deploy command](https://hexo.io/docs/commands#deploy)
@@ -25,6 +30,6 @@
 
     $ hexo deploy --generate
     ```
-- [Github Pages](https://hexo.io/docs/github-pages)
+- [Github Pages](https://hexo.io/docs/github-pages) deploy
 - [One-command deployment](https://hexo.io/docs/one-command-deployment.html)
     - This covers Zeit, Netlify, Heroku and more.

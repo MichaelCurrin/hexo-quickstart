@@ -1,5 +1,6 @@
 # Installation
 
+
 ## Install system dependencies
 
 Install Node.js and Yarn - see [gist](https://gist.github.com/MichaelCurrin/bdc34c554fa3023ee81449eb77375fcb) instructions.
@@ -23,8 +24,17 @@ $ cd hexo-quickstart
 ```
 
 
-## Instal project dependencies
+## Install project dependencies
 
 ```sh
 $ yarn install
+```
+
+
+## Install Hexo globally
+
+This is not needed as the quickstart has hexo in the package file and a new project can be created with `npx`. But if you do want to install it globally, do this:
+
+```sh
+$ npm install hexo-cli -g
 ```
