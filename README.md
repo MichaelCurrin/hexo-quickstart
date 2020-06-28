@@ -14,6 +14,11 @@
 [Hexo](https://hexo.io) is a static-site generator which can be installed as an NPM package. This project helps you get started with Hexo.
 
 
+## Sample
+
+![sample.png](sample.png)
+
+
 ## Documentation
 
 See the [docs](/docs/) directory.
