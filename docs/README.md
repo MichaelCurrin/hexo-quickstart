@@ -1,13 +1,29 @@
 # Hexo Quickstart docs
 
-Instructions to use this project:
+
+## Purpose
+
+- Basic intro/tutorial
+- Template project
+- Live demo on GH PAges
+
+
+## Requirements
+
+- Node.js
+- Yarn
+
+
+## How to use this project
 
 - [Installation](installation.md)
 - [Usage](usage.md)
 - [Deploy](deploy.md)
 
-More docs around Hexo
 
+## About Hexo
+
+- [Create a fresh project](new.md)
 - [Resources](resources.md)
 - [Themes](themes.md)
 - [Hexo CLI](cli.md)
