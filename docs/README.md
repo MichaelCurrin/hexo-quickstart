@@ -14,14 +14,14 @@
 - Yarn
 
 
-## How to use this project
+## Install and run
 
 - [Installation](installation.md)
 - [Usage](usage.md)
 - [Deploy](deploy.md)
 
 
-## About Hexo
+## Intro to Hexo
 
 - [Create a fresh project](new.md)
 - [Resources](resources.md)
