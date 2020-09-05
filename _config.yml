@@ -3,7 +3,7 @@ title: Hexo Quickstart
 subtitle: "Tutorial, template and live demo"
 description: "The easy way to start create a new Hexo blog"
 keywords:
-author: Michael Currin
+author: MichaelCurrin
 language: en
 timezone: ""
 
@@ -99,4 +99,4 @@ deploy:
 menu:
   Home: /
   About: /about
-  Github: https://github.com/MichaelCurrin/hexo-quickstart
+  GitHub: https://github.com/MichaelCurrin/hexo-quickstart
