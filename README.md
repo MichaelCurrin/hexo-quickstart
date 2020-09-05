@@ -41,7 +41,9 @@ This project includes a [CI Deploy](/docs/deploy.md#ci-deploy) flow using GitHub
 
 1. Click _Use this template_ button add the repo to your own repos.
 1. Follow the docs to set it up locally and/or remotely on GH Pages.
-1. Customize the project with your own content and styling.
+1. Customize the project. 
+    - Add your own pages and posts to [source](/source). Copy and existing page or using the CLI locally to make use of the [scaffolds](/scaffolds) for new pages.
+    - Update the [\_config.yml](/_config.yml) file's _Menu_ section to setup your navbar.
 1. Customize the docs.
 1. Delete the _About this template_ section.
 
