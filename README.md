@@ -18,7 +18,11 @@
 
 ## Prevew
 
-![sample.png](sample.png)
+<div align=center>
+    <a href="https://michaelcurrin.github.io/hexo-quickstart/">
+        <img src="sample.png" alt="Screenshot preview" title="Screenshot preview" height="400" />
+    </a>
+</div>
 
 
 ## About this template
