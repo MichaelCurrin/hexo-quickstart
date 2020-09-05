@@ -5,6 +5,9 @@
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/hexo-quickstart)](https://github.com/MichaelCurrin/hexo-quickstart/tags/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](#license)
 
+[![Made with Node.js](https://img.shields.io/badge/Made_with-Node.js-blue?logo=javascript)](https://nodejs.org/)
+[![Made with Hexo](https://img.shields.io/badge/Made_with-Hexo-blue?logo=hexo)](https://hexo.io)
+
 <div align="center">
 
 [![Use this template](https://img.shields.io/badge/Use_this_template-green?style=for-the-badge)](https://github.com/MichaelCurrin/hexo-quickstart/generate)
