@@ -8,13 +8,6 @@
 [![Made with Node.js](https://img.shields.io/badge/Made_with-Node.js-blue?logo=javascript)](https://nodejs.org/)
 [![Made with Hexo](https://img.shields.io/badge/Made_with-Hexo-blue?logo=hexo)](https://hexo.io)
 
-<div align="center">
-
-[![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/hexo-quickstart/generate)
-[![View site GH Pages](https://img.shields.io/badge/View_site-GH_Pages-green?style=for-the-badge)](https://michaelcurrin.github.io/hexo-quickstart/)
-
-</div>
-
 
 ## Preview
 
@@ -22,6 +15,17 @@
     <a href="https://michaelcurrin.github.io/hexo-quickstart/">
         <img src="sample.png" alt="Screenshot preview" title="Screenshot preview" height="400" />
     </a>
+</div>
+
+
+## Use this project
+
+<div align="center">
+
+[![Use this template](https://img.shields.io/badge/generate-Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/hexo-quickstart/generate)
+
+[![View site GH Pages](https://img.shields.io/badge/View_site-GH_Pages-blue?style=for-the-badge)](https://michaelcurrin.github.io/hexo-quickstart/)
+
 </div>
 
 
