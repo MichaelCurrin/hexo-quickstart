@@ -1,12 +1,12 @@
 # Hexo Quickstart
 > The easy way to start create a new Hexo blog
 
-[![Build and deploy](https://github.com/MichaelCurrin/hexo-quickstart/workflows/Build%20and%20deploy/badge.svg)](https://github.com/MichaelCurrin/hexo-quickstart/actions)
+[![GH Pages Deploy](https://github.com/MichaelCurrin/hexo-quickstart/workflows/GH%20Pages%20Deploy/badge.svg)](https://github.com/MichaelCurrin/hexo-quickstart/actions?query=workflow:"GH+Pages+Deploy")
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/hexo-quickstart)](https://github.com/MichaelCurrin/hexo-quickstart/tags/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue)](#license)
+[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 
-[![Made with Node.js](https://img.shields.io/badge/Made_with-Node.js-blue?logo=javascript)](https://nodejs.org/)
-[![Made with Hexo](https://img.shields.io/badge/Made_with-Hexo-blue?logo=hexo)](https://hexo.io)
+[![Made with Node.js](https://img.shields.io/badge/Made_with-Node.js-blue?logo=node-dot-js&logoColor=white)](https://nodejs.org/)
+[![Made with Hexo](https://img.shields.io/badge/Made_with-Hexo-blue?logo=hexo&logoColor=white)](https://hexo.io)
 
 
 ## Preview
